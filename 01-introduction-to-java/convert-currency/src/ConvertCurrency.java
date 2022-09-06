@@ -6,6 +6,13 @@ public class ConvertCurrency {
         System.out.println("Enter VND units: ");
         inputVND = sc.nextDouble();
         double outputUSD = inputVND / 23000;
-        System.out.println(inputVND + " VND is equal to " + outputUSD + " USD");
+        System.out.printf("%.2f%s", outputUSD, " USD");
     }
 }
+
+//    Scanner sc = new Scanner(System.in);
+//    double inputVND;
+//        System.out.println("Enter VND units: ");
+//                inputVND = sc.nextDouble();
+//                double outputUSD = inputVND / 23000;
+//                System.out.println(inputVND + " VND is equal to " + outputUSD + " USD");
